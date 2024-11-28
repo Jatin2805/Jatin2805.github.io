@@ -51,9 +51,6 @@ a:hover {
     /* justify-content: space-around; */
     background-color: silver;
     padding: 10px;
-    margin: 10px;
-}
-.box_1 img{
-    height: 20px;
-    width: 50px;
+    width : 500px;
+    padding: 30px;
 }
