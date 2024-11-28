@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+
+.row2 {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    height: 600px;
+    align-items: center;
+    background-color: rgb(245, 244, 244);
+    border-radius: 5px;
+    border: 5px rgb(13, 184, 64);
+}
+
+.row2 .box {
+    border: solid 5px silver;
+    padding: 10px;
+    margin: 10px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    height: 600px;
+
+}
+
+.boxes .box_1{
+    display: flex;
+    margin: 10px;
+    /* justify-content: space-around; */
+    background-color: silver;
+    padding: 10px;
+    margin: 10px;
+}
