@@ -1,83 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="" href="images/1.png">
+<style>
+      * {
+        margin: 0px;
+      }
+      .header {
+        background-color: orange;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .header a {
+        text-decoration: none;
+      }
+      .header li {
+        display: inline-block;
+        padding: 10px;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .row {
+        display: flex;
+        justify-content: center;
+        padding :100px;
+        height:600px;
+        align-items: center;
+      }
+      .row .box {
+        border: solid 1px silver;
+        margin: 10px;
+        width: 300px;
+      
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grocery Store</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="index.html">
-</head>
+      }
+      .row2 {
+        display: flex;
+        justify-content: center;
+        background-color: aqua;
+        height:600px;
+        padding:100px;
+        align-items: center;
+      }
+      .row2 .box {
+        
+        width: 500px;
+        margin: 10px;
+        background: white;
+        height: 300px;
+        
+        
+      }
+      .footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+      img {
+        width: 300px;
+      }
 
-<body>
-
-    <div class="header">
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="header">
         <div>
-            <h1 style="margin-left: 90px;">Store</h1>
+          <h1>My Store</h1>
         </div>
-        <div class="list" style="text-decoration: none;">
-            <ul style="margin-right: 70px;">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="">about</a></li>
-                <li><a href="">u</a></li>
-                <li><a href="">me</a></li>
-
-            </ul>
+        <div>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About </a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
         </div>
+      </div>
 
-
-
-    </div>
-    <div class="row2">
-        <img src="/images/1.png" style="border-radius: 16px ;border: solid 10px grey ;" alt="">
+      <div class="row">
         <div class="box">
-            <h1>header</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni vitae fugit assumenda quas error
-                deleniti, fuga hic iure alias vero voluptatem soluta eius nostrum tempore numquam unde minus in
-                adipisci!</p>
+          <img src="images/1.png" />
+          <h3>Product 1</h3>
+          <h4>This is the description of the product</h4>
+          Price:$25<button>Add to Cart</button>
         </div>
-        <hr>
-    </div>
-    <div class="boxes">
-        <div class="box_1">
-            <img src="/images/1.png" alt="">
-            <h2>pro 1</h2>
-            <button>add</button>
-
-        </div>
-        <div class="box_1">
-            <img src="/images/1.png" alt="">
-            <h2>pro 2</h2>
-            <button>add</button>
-
-        </div>
-
-        <div class="box_1">
-            <img src="/images/1.png" alt="">
-            <h2>pro 3</h2>
-            <button>add</button>
-
-            <!-- <button>a</button> -->
-
-        </div>
-
-
-
-    </div>
-    <div class="row3">
         <div class="box">
-            <h1 style="color: wheat;">header</h1>
-            <p style="color: white;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni vitae fugit assumenda quas error
-                deleniti, fuga hic iure alias vero voluptatem soluta eius nostrum tempore numquam unde minus in
-                adipisci!</p>
+          <img src="images/1.png" />
+          <h3>Product 2</h3>
+          <h4>This is the description of the product</h4>
+          Price:$25<button>Add to Cart</button>
         </div>
-        <img src="/images/1.png" style="border-radius: 16px ;border: solid 10px grey ;" alt="">
+        <div class="box">
+          <img src="images/1.png" />
+          <h3>Product 3</h3>
+          <h4>This is the description of the product</h4>
+          Price:$25<button>Add to Cart</button>
+        </div>
+      </div>
 
-        <hr>
+      <div class="row2">
+        <img src="images/1.png" />
+        <div class="box" >
+          <h3>heading</h3>
+          <h4>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            molestiae aut doloremque iure quam amet voluptas! Nam, rerum aliquam
+            inventore enim ad eveniet voluptatibus id minus, quasi nobis omnis
+            et?
+          </h4>
+        </div>
+      </div>
+
+      <div class="row2" style="background-color: aliceblue;">
+        <div class="box" >
+            <h3>heading</h3>
+            <h4>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+              molestiae aut doloremque iure quam amet voluptas! Nam, rerum aliquam
+              inventore enim ad eveniet voluptatibus id minus, quasi nobis omnis
+              et?
+            </h4>
+          </div>
+        
+          <img src="images/1.png"/>
+       
+        
+      </div>
+
+      <div class="footer">
+        <footer>@Copyright 2024. All rights reserved.</footer>
+      </div>
+
     </div>
-    <div></div>
-    <div></div>
-
-</body>
-
+  </body>
 </html>
