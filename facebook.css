@@ -1,0 +1,35 @@
+.body{
+    margin: 0;
+    width: 100px;
+    height: 100px;
+}
+.bm{
+    display: flex;
+    align-items: center;
+}
+.main{
+    right: 50px;
+    margin-top: 150px;
+    margin-left: 60px;
+
+}
+.bot{
+    margin-right: 50px;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+.form{
+    margin:10px;
+}
+.form1{
+    margin:10px;
+}
+.log{
+    padding-left: 620px;
+}
+.p{
+    margin-left: 580px;
+}
+.b{
+    margin-left: 580px;
+}

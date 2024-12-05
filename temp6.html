@@ -21,6 +21,7 @@
         padding: 20px;
         display: flex;
         justify-content: space-between;
+        display: flex;
       }
       .row {
         background-color: silver;
@@ -38,8 +39,22 @@
         border: 5px solid orange;
         border-radius: 20px;
         background: linear-gradient(maroon, silver);
+        box-shadow: 5px 5px 5px 5px grey;
+        transition-property: transform ;
+        transition-duration: 0.100s;
+    }
+    .box:hover{
+            transform: scale(1.5,1.5)
+        }
+      ul{
+        margin: 0px;
+        padding: 0px;
       }
-
+      .submenu{
+        display: none;
+        position: absolute;
+        background-color: silver;
+      }
       .container {
         position: absolute;
         scroll-behavior: smooth;
@@ -67,6 +82,25 @@
         opacity: 0.4;
         color: white;
       }
+      .menu{
+        margin: 0;
+      }
+      .menu:hover .submenu{
+        display: block;
+      }
+      .submenu{
+        margin-right: 00px;
+        padding: 100px;
+        width: 300px;
+        height: 100px;
+        left: 500px;
+        border: 5px solid orange;
+        border-radius: 20px;
+        background: linear-gradient(maroon, silver);
+        box-shadow: 5px 5px 5px 5px grey;
+        transition-property: transform ;
+        transition-duration: 0.100s;
+      }
     </style>
   </head>
   <body>
@@ -78,12 +112,25 @@
      
     <div id="h">
       <h3>My Application</h3>
-      <div>
-        <a href="#home">Home</a>
+      <div class="service">
+        <li><a href="#home">Home</a></li>
+
+        <li class="menu">
         <a href="#projects">Projects</a>
-        <a href="#">About</a>
+        <div class="submenu">
+            <a href="#">Project 1</a>
+            <a href="#">Project2</a>
+          </div>
+        </li>
+        <li><a href="#bout">About</a></li>
+        <li class="menu">
         <a href="#">Services</a>
-        <a href="#">Contact</a>
+        <div class="submenu">
+            <a href="#">Project 1</a>
+            <a href="#">Project2</a>
+          </div>
+        </li>
+        <li><a href="#">Contact</a></li>
       </div>
     </div>
     <div class="row header" id="home">
